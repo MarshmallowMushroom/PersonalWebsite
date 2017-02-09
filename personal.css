@@ -1,8 +1,10 @@
 img {
-	width: 30%;
-	 /*30% of the body element*/
-	float: left;
-	margin: 1.66%;
+	float: right;
+	width:100%;
+	height:100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px;
 	/*??*/
 }
 
@@ -14,4 +16,49 @@ ul li {
 #bio, #resume, #self {
 	font-family: 'Amatic SC', cursive;
 	font-size: 20px;
+}
+
+.book_search_project{
+	background-image: url(assets/book_search.jpg);
+}
+
+.camping_site_rating_project{
+	background-image: url(assets/yelp_camp.jpg)
+}
+
+.rgb_guess_game_project{
+	background-image: url(assets/rgb_guess_game.jpg)
+}
+
+.project {
+	position: relative;
+	float: right;
+	width:100%;
+	height:200px;
+	background-size: cover;
+	transition: background 0.1s linear;
+	margin: 10px 0;
+}
+
+h2 {
+	width: 80%;
+	margin-top: 120px;
+	text-align: left;
+	top: 0;
+	transform: translateY(-50%);
+	clear: both;
+	color: transparent;
+}
+
+h2 span {
+	top: 0;
+	font: bold 45px/45px Helvetica, Sans-Serif;
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: -1px;
+	padding: 10px;
+}
+
+ul li {
+	display: list-item;
+	font-size:16px;
 }
