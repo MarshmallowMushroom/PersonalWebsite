@@ -30,6 +30,10 @@ ul li {
 	background-image: url(assets/rgb_guess_game.jpg)
 }
 
+.python_interactive_game{
+	background-image: url(assets/python_interactive_game.jpg)
+}
+
 .project {
 	position: relative;
 	float: right;
